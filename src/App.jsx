@@ -1,8 +1,21 @@
+import { Switch, Router, Link } from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
 
 const App = () => {
   return (
     <>
-      <h1>Cryptoland</h1>
+      <div className='app'> 
+
+        <div className="navbar">
+        </div>
+
+        <div className="main">
+        </div>/
+
+        <div className="footer">
+        </div>
+
+      </div>
     </>
   )
 }
