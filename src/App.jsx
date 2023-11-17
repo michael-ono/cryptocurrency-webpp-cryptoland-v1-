@@ -1,4 +1,4 @@
-import { Switch, Router, Link } from 'react-router-dom';
+import { Router, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 import { Navbar } from './components'
 
@@ -8,10 +8,11 @@ const App = () => {
       <div className='app'> 
 
         <div className="navbar">
+          <Navbar />
         </div>
 
         <div className="main">
-        </div>/
+        </div>
 
         <div className="footer">
         </div>
