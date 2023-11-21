@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="nav-container">
         <div className="logo-container">
-            <Avatar src={icon} size="large" style={{height: '150px', width: '150px' ,backgroundColor: 'black'}}/>
+            <Avatar src={icon} size="large" />
             <Typography.Title level={2} className="logo">
                 <Link to="/">Cryptoland</Link>
             </Typography.Title>
